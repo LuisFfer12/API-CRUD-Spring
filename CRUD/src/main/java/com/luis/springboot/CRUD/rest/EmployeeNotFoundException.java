@@ -3,6 +3,11 @@ package com.luis.springboot.CRUD.rest;
 public class EmployeeNotFoundException extends RuntimeException {
 
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8655317859068182601L;
+
 	public EmployeeNotFoundException() {
 		super();
 	}
